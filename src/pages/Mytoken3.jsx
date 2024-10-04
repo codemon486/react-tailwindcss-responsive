@@ -50,7 +50,7 @@ const Mytoken3 = () => {
           <div className="mt-4 border w-56.5 h-77 rounded-10 border-black shadow-yellow-sm">
             <div className="rounded-t-10 rounded-b-5 bg-gray-50 w-56.3 h-45">
               <button
-                className="flex-shrink-0 mt-38 ml-0.5 bg-yellow-350 w-24 h-4.5 text-black rounded-4 shadow-md   "
+                className="flex-shrink-0 mt-38 ml-0.5 bg-#FDB43E w-24 h-4.5 text-black rounded-4 shadow-md   "
                 type="submit"
               >
                 <div className="flex justify-center leading-sm font-system-ui text-xxs">

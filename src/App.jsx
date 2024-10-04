@@ -12,11 +12,11 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" exact element={<Home />}></Route>
-          <Route path="/mytoken" exact element={<Mytoken />}></Route>
-          <Route path="/mytoken2" exact element={<Mytoken2 />}></Route>
-          <Route path="/mytoken3" exact element={<Mytoken3 />}></Route>
-          <Route path="/launch_token" exact element={<LaunchToken />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/mytoken" element={<Mytoken />}></Route>
+          <Route path="/mytoken2" element={<Mytoken2 />}></Route>
+          <Route path="/mytoken3" element={<Mytoken3 />}></Route>
+          <Route path="/launch_token" element={<LaunchToken />}></Route>
         </Routes>
       </Router>
       <Footer />

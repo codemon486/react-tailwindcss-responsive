@@ -121,6 +121,8 @@ module.exports = {
       boxShadow: {
         "yellow-sm":
           " 0px -4px 0px 0px #FFE958 inset, 0px -5px 0px 0px #000 inset;",
+        "#127be9":
+          "0px -4px 0px 0px #127be9 inset, 0px -5px 0px 0px #000 inset;",
       },
       fontSize: {
         xxs: "8px",
@@ -135,14 +137,9 @@ module.exports = {
         sm: "11.5px",
         22.97: "22.92px",
       },
-      boxShadow: {
-        "#127be9":
-          "0px -4px 0px 0px #127be9 inset, 0px -5px 0px 0px #000 inset;",
-      },
       screens: {
         mac: "1385px",
       },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
 };

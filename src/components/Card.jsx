@@ -5,7 +5,7 @@ export default function Card({ cardColor, bottomColor, status }) {
     >
       <div className="rounded-t-10 rounded-b-5 bg-gray-50 w-56.3 h-45">
         <button
-          className="flex-shrink-0 mt-38 ml-0.5 bg-yellow-350 w-24 h-4.5 text-black rounded-4 shadow-md   "
+          className="flex-shrink-0 mt-38 ml-0.5 bg-#FDB43E w-24 h-4.5 text-black rounded-4 shadow-md   "
           type="submit"
         >
           <div className="flex justify-center leading-sm font-system-ui text-xxs">
@@ -25,8 +25,10 @@ export default function Card({ cardColor, bottomColor, status }) {
         <div className="text-blue-600 font-medium text-sm">0.03%</div>
         <div className="font-medium text-sm">MC $4662.51 </div>
       </div>
-      <div class="relative h-2 bg-gray-50 rounded mx-2">
-        <div class="absolute top-0 left-0 w-2/3 h-2 bg-gradient-to-r from-green-300 to-yellow-200 rounded"></div>
+      <div class="relative h-2 bg-gray-150 rounded mx-2">
+        <div
+          class={`absolute top-0 left-0 ${status} h-2 bg-gradient-to-r from-green-300 to-yellow-200 rounded`}
+        ></div>
       </div>
       <div className="flex px-2.5 items-center">
         <div>
